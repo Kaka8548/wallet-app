@@ -26,7 +26,7 @@ export const walletApi = axios.create({
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      <BrowserRouter basename="/the-babky">
+      <BrowserRouter basename="/wallet-app">
         <React.StrictMode>
           <ChakraProvider theme={theme}>
             <HelmetProvider>
